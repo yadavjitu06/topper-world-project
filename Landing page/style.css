@@ -1,0 +1,105 @@
+:root{
+    --aqua:#0FC2C0;
+    --bleu:#0CABA8;
+    --green:#008F8C;
+    --ocean:#015958;
+    --teal:#023535;
+    --black:#000000;
+    --white:#FFFFFF;
+}
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--aqua);
+     color: var(--black);
+}
+.section-teal{
+   background-color: var(--teal);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0; 
+}
+#intro {
+    padding-bottom: 5 rem;
+}
+ #intro p {
+font-size:1.5rem ;
+color: var(--teal);
+line-height: 1.5;
+ }
+
+ .name span {
+    display: block;
+    color:var(--ocean);
+    font-size: 4 rem ;
+ }
+ .profile{
+    padding-bottom: 1rem ;
+ }
+ #intro h2{
+   font-size: 3 rem;
+   font-weight: normal; 
+ }
+ #exeperinc ul {
+    font-size: 1.2 rem;
+    margin: 0;
+    padding: 0;
+    
+ }
+ 
+
+ #exeperince li {
+    list-style-type: none;
+    padding: 1 rem;
+
+ }
+ #exeperince a {
+    color:white;
+ }
+ #hire{
+   background-color: var(--white);
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+ }
+ #hire p:last-child{
+   margin-top :3 rem ;
+ }
+ nav{
+   font-size: 80%;
+   padding: 1 rem;
+ }
+ nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0 ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2 rem;
+
+ }
+ 
+ nav a{
+   color: white;
+   text-decoration: none;
+   font-size: 1.2 rem;
+}
+nav a:hover {
+   color: var(--teal  );
+   text-decoration: underlinem ;
+   font-size: 1.2 rem;
+}
+
+nav li:first-child{
+    flex-grow: 1;
+    font-size: 1.5 rem;
+} 
